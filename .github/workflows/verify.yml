@@ -1,0 +1,39 @@
+name: verify
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  concordance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Example page is current
+        working-directory: patterns/concordance/example
+        run: python build-example.py --check
+
+      - name: Template fills with no placeholders left
+        working-directory: patterns/concordance/example
+        run: python build-example.py --out /tmp/page.html
+
+      - name: Rendered JavaScript parses
+        run: |
+          sed -n '/^<script>$/,/^<\/script>$/p' /tmp/page.html \
+            | sed '1d;$d' > /tmp/page.js
+          node --check /tmp/page.js
+
+      - name: Locator core functions behave
+        run: python patterns/concordance/example/smoke_locator.py
+
+      # A green check proves the template FILLS and PARSES. It does not prove the
+      # page RENDERS — that still needs a human opening it in both themes.
+      - name: Note
+        run: echo "Verified fill + parse only. Visual review is manual."

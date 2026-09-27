@@ -1,0 +1,151 @@
+{
+  "generated": "2026-03-14",
+  "totals": {
+    "Almanac_2026-03-14.pdf": 96,
+    "Almanac_Public_2026-03-14.pdf": 48,
+    "PocketGuide_Public_2026-03-14.pdf": 24
+  },
+  "rows": [
+    { "book": "Almanac", "edition": "complete", "pdf": "Almanac_2026-03-14.pdf",
+      "part": "front", "kind": "frontmatter", "title": "Title", "words": 24, "figures": "",
+      "pages": "1",
+      "sources": [{ "role": "authored", "path": "book/frontmatter/00-title.md", "anchor": "" }] },
+
+    { "book": "Almanac", "edition": "complete", "pdf": "Almanac_2026-03-14.pdf",
+      "part": "front", "kind": "frontmatter", "title": "Preface", "words": 410, "figures": "",
+      "pages": "2–5",
+      "sources": [{ "role": "authored", "path": "book/frontmatter/01-preface.md", "anchor": "" }] },
+
+    { "book": "Almanac", "edition": "complete", "pdf": "Almanac_2026-03-14.pdf",
+      "part": "Part I — The Ground", "kind": "chapter", "title": "Chapter 1 — What Soil Is",
+      "words": 1840, "figures": "soil-horizons",
+      "pages": "6–17",
+      "sources": [{ "role": "sliced", "path": "canon/SOIL.md",
+                    "anchor": "^# What Soil Is → ^## Amendments" }] },
+
+    { "book": "Almanac", "edition": "complete", "pdf": "Almanac_2026-03-14.pdf",
+      "part": "Part I — The Ground", "kind": "bridge", "title": "Chapter 1 → Chapter 2",
+      "words": 160, "figures": "",
+      "pages": "18",
+      "sources": [{ "role": "sliced", "path": "canon/SOIL.md",
+                    "anchor": "^## Amendments → ^## Drainage" }] },
+
+    { "book": "Almanac", "edition": "complete", "pdf": "Almanac_2026-03-14.pdf",
+      "part": "Part I — The Ground", "kind": "chapter", "title": "Chapter 2 — Water and Drainage",
+      "words": 1420, "figures": "",
+      "pages": "19–28",
+      "sources": [{ "role": "sliced", "path": "canon/SOIL.md", "anchor": "^## Drainage" }] },
+
+    { "book": "Almanac", "edition": "complete", "pdf": "Almanac_2026-03-14.pdf",
+      "part": "Part II — The Year", "kind": "chapter", "title": "Chapter 3 — Reading a Season",
+      "words": 3260, "figures": "season-wheel, frost-map",
+      "pages": "29–48",
+      "sources": [{ "role": "sliced", "path": "canon/SEASONS.md",
+                    "anchor": "^# Reading a Season → ^## The Long View" }] },
+
+    { "book": "Almanac", "edition": "complete", "pdf": "Almanac_2026-03-14.pdf",
+      "part": "Part II — The Year", "kind": "chapter", "title": "Chapter 4 — Frost, Early and Late",
+      "words": 1290, "figures": "",
+      "pages": "49–57",
+      "sources": [{ "role": "sliced", "path": "canon/SEASONS.md", "anchor": "^## The Long View" }] },
+
+    { "book": "Almanac", "edition": "complete", "pdf": "Almanac_2026-03-14.pdf",
+      "part": "Part III — Increase", "kind": "chapter", "title": "Chapter 5 — Seed and Cutting",
+      "words": 2470, "figures": "cutting-angles",
+      "pages": "58–74",
+      "sources": [{ "role": "sliced", "path": "canon/PROPAGATION.md", "anchor": "" }] },
+
+    { "book": "Almanac", "edition": "complete", "pdf": "Almanac_2026-03-14.pdf",
+      "part": "Part III — Increase", "kind": "chapter", "title": "Chapter 6 — Grafting",
+      "words": 980, "figures": "",
+      "pages": "75–82",
+      "sources": [{ "role": "authored", "path": "book/chapters/ch06-grafting.md", "anchor": "" }] },
+
+    { "book": "Almanac", "edition": "complete", "pdf": "Almanac_2026-03-14.pdf",
+      "part": "Appendices", "kind": "appendix", "title": "Appendix A — Hardiness Tables",
+      "words": 640, "figures": "",
+      "pages": "83–90",
+      "sources": [{ "role": "sliced", "path": "canon/TABLES.md", "anchor": "" }] },
+
+    { "book": "Almanac", "edition": "complete", "pdf": "Almanac_2026-03-14.pdf",
+      "part": "Appendices", "kind": "appendix", "title": "Appendix B — Notes on Sources",
+      "words": 320, "figures": "",
+      "pages": "91–96",
+      "sources": [{ "role": "authored", "path": "book/chapters/appendix-sources.md", "anchor": "" }] },
+
+    { "book": "Almanac", "edition": "public", "pdf": "Almanac_Public_2026-03-14.pdf",
+      "part": "front", "kind": "frontmatter", "title": "Title", "words": 24, "figures": "",
+      "pages": "1",
+      "sources": [{ "role": "authored", "path": "book/frontmatter/00-title.md", "anchor": "" }] },
+
+    { "book": "Almanac", "edition": "public", "pdf": "Almanac_Public_2026-03-14.pdf",
+      "part": "front", "kind": "frontmatter", "title": "About This Edition", "words": 280,
+      "figures": "", "pages": "2–4",
+      "sources": [{ "role": "authored", "path": "book/frontmatter/02-public-notice.md", "anchor": "" }] },
+
+    { "book": "Almanac", "edition": "public", "pdf": "Almanac_Public_2026-03-14.pdf",
+      "part": "Part I — The Ground", "kind": "chapter", "title": "Chapter 1 — What Soil Is",
+      "words": 1615, "figures": "soil-horizons",
+      "pages": "5–14",
+      "sources": [{ "role": "sliced", "path": "canon/SOIL.md",
+                    "anchor": "^# What Soil Is → ^## Amendments" }] },
+
+    { "book": "Almanac", "edition": "public", "pdf": "Almanac_Public_2026-03-14.pdf",
+      "part": "Part II — The Year", "kind": "chapter", "title": "Chapter 2 — Reading a Season",
+      "words": 2880, "figures": "season-wheel",
+      "pages": "15–32",
+      "sources": [{ "role": "sliced", "path": "canon/SEASONS.md",
+                    "anchor": "^# Reading a Season → ^## The Long View" }] },
+
+    { "book": "Almanac", "edition": "public", "pdf": "Almanac_Public_2026-03-14.pdf",
+      "part": "Part III — Increase", "kind": "chapter", "title": "Chapter 3 — Seed and Cutting",
+      "words": 2110, "figures": "cutting-angles",
+      "pages": "33–44",
+      "sources": [{ "role": "sliced", "path": "canon/PROPAGATION.md", "anchor": "" }] },
+
+    { "book": "Almanac", "edition": "public", "pdf": "Almanac_Public_2026-03-14.pdf",
+      "part": "closing", "kind": "chapter", "title": "Closing — A Working Year",
+      "words": 470, "figures": "",
+      "pages": "45–48",
+      "sources": [{ "role": "authored", "path": "book/chapters/closing.md", "anchor": "" }] },
+
+    { "book": "PocketGuide", "edition": "public", "pdf": "PocketGuide_Public_2026-03-14.pdf",
+      "part": "front", "kind": "frontmatter", "title": "Read This First", "words": 240,
+      "figures": "", "pages": "1–2",
+      "sources": [{ "role": "authored", "path": "book/frontmatter/pg-00-read-first.md", "anchor": "" }] },
+
+    { "book": "PocketGuide", "edition": "public", "pdf": "PocketGuide_Public_2026-03-14.pdf",
+      "part": "Part I — In the Hand", "kind": "chapter", "title": "You Are Not Growing a Plan",
+      "words": 820, "figures": "",
+      "pages": "3–8",
+      "sources": [
+        { "role": "authored", "path": "book/chapters/pg-01-not-a-plan.md", "anchor": "" },
+        { "role": "adapted", "path": "canon/SEASONS.md", "anchor": "^## Why the calendar lies" },
+        { "role": "adapted", "path": "canon/SOIL.md", "anchor": "^## What you cannot change" }
+      ] },
+
+    { "book": "PocketGuide", "edition": "public", "pdf": "PocketGuide_Public_2026-03-14.pdf",
+      "part": "Part I — In the Hand", "kind": "chapter", "title": "Four Things to Check",
+      "words": 910, "figures": "season-wheel",
+      "pages": "9–15",
+      "sources": [
+        { "role": "authored", "path": "book/chapters/pg-02-four-checks.md", "anchor": "" },
+        { "role": "adapted", "path": "canon/SEASONS.md", "anchor": "^## Reading the week ahead" }
+      ] },
+
+    { "book": "PocketGuide", "edition": "public", "pdf": "PocketGuide_Public_2026-03-14.pdf",
+      "part": "Part I — In the Hand", "kind": "chapter", "title": "When to Do Nothing",
+      "words": 660, "figures": "",
+      "pages": "16–20",
+      "sources": [
+        { "role": "authored", "path": "book/chapters/pg-03-do-nothing.md", "anchor": "" },
+        { "role": "adapted", "path": "canon/PROPAGATION.md", "anchor": "^## Patience" }
+      ] },
+
+    { "book": "PocketGuide", "edition": "public", "pdf": "PocketGuide_Public_2026-03-14.pdf",
+      "part": "closing", "kind": "chapter", "title": "Closing — A Working Year",
+      "words": 470, "figures": "",
+      "pages": "21–24",
+      "sources": [{ "role": "authored", "path": "book/chapters/closing.md", "anchor": "" }] }
+  ]
+}
