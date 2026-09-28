@@ -486,7 +486,12 @@ Three ways to open it, in order of friction:
 
 1. **From disk** — open the file. Every feature works: the data is inlined,
    the only network call is the font stylesheet, and that degrades to system faces.
-2. **GitHub Pages** — if the repo already publishes `docs/`, the page is live at
+2. **GitHub Pages** — add an empty **`.nojekyll`** at the repo root first. Pages runs Jekyll by
+   default, Jekyll parses `{{ … }}` as Liquid, and the template's placeholders and this README's
+   own examples make the build fail outright with `Variable '{{' was not properly terminated`.
+   Nothing here needs Jekyll, so turning it off is both the fix and the right default. With
+   `.nojekyll` the root has no generated index either — add a small `index.html` if the bare
+   URL should not 404. Then, if the repo already publishes `docs/`, the page is live at
    `<user>.github.io/<repo>/book/xref-page.html` with no extra configuration. Note that a
    public Pages site publishes the page **and its inlined payload**: every chapter title,
    source path and regex anchor in your book. For an internal-edition concordance that is a

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>book-build-pattern</title>
+<style>
+:root{
+  color-scheme:light dark;
+  --ground:#FAFBFC; --surface:#FFFFFF; --rule:#DCE3EA;
+  --ink:#131A22; --ink-2:#3D4A57; --muted:#61707E; --accent:#1C6C99;
+  --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --ground:#0F141A; --surface:#161D25; --rule:#28323E;
+  --ink:#E3E9EF; --ink-2:#B4C0CC; --muted:#8A98A6; --accent:#5EB0DC;}}
+:root[data-theme="dark"]{
+  --ground:#0F141A; --surface:#161D25; --rule:#28323E;
+  --ink:#E3E9EF; --ink-2:#B4C0CC; --muted:#8A98A6; --accent:#5EB0DC;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
+  font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased;padding:0 20px 80px}
+.wrap{max-width:720px;margin:0 auto}
+header{border-bottom:1px solid var(--rule);padding:72px 0 30px;margin-bottom:38px}
+.eyebrow{font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--muted);margin:0 0 20px}
+h1{font-family:var(--serif);font-size:clamp(30px,5vw,44px);line-height:1.08;font-weight:700;
+  letter-spacing:-.015em;margin:0 0 16px}
+.deck{font-family:var(--serif);font-size:18px;line-height:1.55;color:var(--ink-2);margin:0;max-width:60ch}
+h2{font-size:13px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--muted);margin:0 0 14px}
+.card{display:block;background:var(--surface);border:1px solid var(--rule);border-radius:10px;
+  padding:20px 22px;text-decoration:none;color:inherit;margin-bottom:12px;
+  transition:border-color .13s,transform .13s}
+.card:hover{border-color:var(--accent);transform:translateY(-1px)}
+.card h3{margin:0 0 6px;font-size:16px;font-weight:650;color:var(--accent)}
+.card p{margin:0;font-size:14.5px;color:var(--ink-2)}
+.card .meta{font-family:var(--mono);font-size:11.5px;color:var(--muted);margin-top:10px}
+footer{border-top:1px solid var(--rule);margin-top:40px;padding-top:22px;
+  font-size:13px;color:var(--muted)}
+a{color:var(--accent)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="eyebrow">mcmcclain / book-build-pattern</p>
+    <h1>Patterns for books compiled from source files</h1>
+    <p class="deck">For books where chapters are sliced out of canon documents at build time,
+      several editions ship from one manifest, and a one-line edit upstream can move a dozen
+      pages across three books.</p>
+  </header>
+
+  <h2>Live example</h2>
+  <a class="card" href="patterns/concordance/example/">
+    <h3>Concordance →</h3>
+    <p>Source ↔ chapter ↔ page cross-reference. What each chapter is made of, and what one
+       upstream edit breaks — with page-map strips drawn to scale against each built PDF.</p>
+    <p class="meta">synthetic data · 22 chapters · 3 editions</p>
+  </a>
+
+  <h2>Source</h2>
+  <a class="card" href="https://github.com/mcmcclain/book-build-pattern">
+    <h3>Repository →</h3>
+    <p>The pattern README, the page template, the locator, and the agent guardrails.</p>
+  </a>
+
+  <footer>MIT licensed. The example uses invented data — there is no real almanac.</footer>
+</div>
+</body>
+</html>
