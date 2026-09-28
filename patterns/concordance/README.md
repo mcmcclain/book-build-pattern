@@ -2,7 +2,7 @@
 
 **A source ↔ chapter ↔ page cross-reference for books compiled from files.**
 
-[**See the live example →**](https://REPLACE-ME.github.io/book-build-patterns/patterns/concordance/example/)
+[**See the live example →**](https://mcmcclain.github.io/book-build-pattern/patterns/concordance/example/)
 · built from [`example/fixture.json`](example/fixture.json) by
 [`example/build-example.py`](example/build-example.py)
 

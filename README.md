@@ -42,8 +42,8 @@ they port to any agent that reads repo instructions; adjust the frontmatter keys
 ## Using one
 
 ```
-git clone https://github.com/REPLACE-ME/book-build-patterns
-cd book-build-patterns/patterns/concordance
+git clone https://github.com/mcmcclain/book-build-pattern
+cd book-build-pattern/patterns/concordance
 cd example && ./build-example.py && open index.html
 ```
 
